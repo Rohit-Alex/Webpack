@@ -5,7 +5,8 @@
   "license": "MIT",
   "description": "Learning purpose",
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "dev": "webpack-dev-server --mode=development --hot",
+    "start": "webpack-dev-server --mode=development --hot",
     "build": "webpack --mode production"
   },
   "author": "Rohit",
@@ -21,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2",
